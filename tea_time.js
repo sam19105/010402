@@ -114,7 +114,7 @@ web3js= new Web3(ethereum);
 myContract = new web3_sepolia.eth.Contract(abi,address);
 mymetamaskContract = new web3js.eth.Contract(abi,address);
 
-candidates = {'Alice': 'candidate-1', 'Bob': 'candidate-2', 'Candy': 'candidate-3'}
+candidates = {'奶茶': 'candidate-1', '紅茶': 'candidate-2', '拿鐵': 'candidate-3'}
 
 function voteForCandidate() {
   candidateName = $('#candidate').val();
